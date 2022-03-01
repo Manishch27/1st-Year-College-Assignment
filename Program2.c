@@ -19,4 +19,3 @@ void main(){
     ci = p*(pow(1+r/(100*n),n*t));
     printf("Compound Interest = Rs %.2f",a);
 }
-
