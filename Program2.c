@@ -16,7 +16,7 @@ void main(){
 	si=(p*r*t)/100;
 	printf("Simple Interest= Rs %2f",si);  // Simple interest Calculated here, Now we will calculate Compound interest
 
-    a = p*(pow(1+r/(100*n),n*t));
+    ci = p*(pow(1+r/(100*n),n*t));
     printf("Compound Interest = Rs %.2f",a);
 }
 
